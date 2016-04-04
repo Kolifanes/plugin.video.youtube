@@ -258,7 +258,7 @@ msgstr "Μυστικό API"
 
 msgctxt "#30204"
 msgid "Use random key pool"
-msgstr "Κάνε χρήση τυχαίου κλειδιού"
+msgstr "Κάνε χρήση τυχαίας δεξαμενής κλειδιού"
 
 msgctxt "#30500"
 msgid "Channels"
