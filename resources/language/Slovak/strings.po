@@ -13,36 +13,36 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 
 msgctxt "Addon Summary"
 msgid "Plugin for YouTube"
-msgstr "YouTube 附加元件"
+msgstr "Plugin pre YouTube"
 
 msgctxt "Addon Description"
 msgid "YouTube is a one of the biggest video-sharing websites of the world."
-msgstr "YouTube 是全球最大的一個影片分享網站。"
+msgstr "YouTube je jednou z najväčších webstránok na zdieľanie videa na svete"
 
 msgctxt "#30000"
 msgid "General"
-msgstr "一般設定"
+msgstr "Hlavné"
 
 msgctxt "#30001"
 msgid "Username"
-msgstr "帳戶"
+msgstr "Meno"
 
 msgctxt "#30002"
 msgid "Password"
-msgstr "密碼"
+msgstr "Heslo"
 
 msgctxt "#30009"
 msgid "Always ask for the video quality"
-msgstr "每次詢問影片解像度"
+msgstr "Vždy sa spýtať na kvalitu videa"
 
 msgctxt "#30010"
 msgid "Video Quality"
-msgstr "影片解像度"
+msgstr "Kvalita videa"
 
 msgctxt "#30011"
 msgid "480p"
@@ -74,71 +74,71 @@ msgstr "360p"
 
 msgctxt "#30020"
 msgid "Allow 3D"
-msgstr "容許 3D 播放"
+msgstr "Povoliť 3D"
 
 msgctxt "#30021"
 msgid "Show Fanart"
-msgstr "顯示背景圖片"
+msgstr "Zobraziť fanart"
 
 msgctxt "#30022"
 msgid "Items per page"
-msgstr "每頁顯示行數"
+msgstr "Položiek na stránku"
 
 msgctxt "#30023"
 msgid "Search History Size"
-msgstr "搜尋記錄大小"
+msgstr "Veľkosť histórie vyhľadávania"
 
 msgctxt "#30024"
 msgid "Cache Size (MB)"
-msgstr "快取空間大小 (MB)"
+msgstr "Veľikosť cache(MB)"
 
 msgctxt "#30025"
 msgid "Enable setup-wizard"
-msgstr "啟用設定精靈"
+msgstr "Povoliť sprievodcu nastavením"
 
 msgctxt "#30026"
 msgid "Override View"
-msgstr "強制預覽模式"
+msgstr "Vynútiť zobrazenie"
 
 msgctxt "#30027"
 msgid "View: Default"
-msgstr "預設預覽模式"
+msgstr "Zobrazit: Štandardné"
 
 msgctxt "#30028"
 msgid "View: Episodes"
-msgstr "情節預覽模式"
+msgstr "Zobrazit: Epizódy"
 
 msgctxt "#30029"
 msgid "View: Movies"
-msgstr "電影預覽模式"
+msgstr "Zobrazit: Filmy"
 
 msgctxt "#30030"
 msgid "Execute setup-wizard?"
-msgstr "要執行設定精靈嗎？"
+msgstr "Spustit sprievodcu nastavením?"
 
 msgctxt "#30031"
 msgid "Advanced"
-msgstr "進階設定"
+msgstr "Pokročilé"
 
 msgctxt "#30032"
 msgid "View: TV Shows"
-msgstr "電視預覽模式"
+msgstr "Zobraziť: TV Show"
 
 msgctxt "#30033"
 msgid "View: Songs"
-msgstr "音樂預覽模式"
+msgstr "Zobrazit: Skladby"
 
 msgctxt "#30034"
 msgid "View: Artists"
-msgstr "藝人預覽模式"
+msgstr "Zobrazit: Umelci"
 
 msgctxt "#30035"
 msgid "View: Albums"
-msgstr "相簿預覽模式"
+msgstr "Zobrazit: Albumy"
 
 msgctxt "#30036"
 msgid "Support alternative player"
-msgstr "支援使用其他播放器"
+msgstr "Podpora alternatívneho prehrávača"
 
 msgctxt "#30037"
 msgid "Custom Watch Later Playlist ID"
@@ -150,110 +150,110 @@ msgstr ""
 
 msgctxt "#30100"
 msgid "Favorites"
-msgstr "我的收藏"
+msgstr "Obľúbené"
 
 msgctxt "#30101"
 msgid "Add to addon favs"
-msgstr "我的最愛"
+msgstr "Pridať do obľúbených"
 
 msgctxt "#30102"
 msgid "Search"
-msgstr "搜尋"
+msgstr "Hľadať"
 
 msgctxt "#30103"
 msgid "Library"
-msgstr "資料庫"
+msgstr "Knižnica"
 
 msgctxt "#30104"
 msgid "Highlights"
-msgstr "標記"
+msgstr "Zvýraznené"
 
 msgctxt "#30105"
 msgid "Archive"
-msgstr "封存"
+msgstr "Archív"
 
 msgctxt "#30106"
 msgid "Next Page (%d)"
-msgstr "下一頁 (%d)"
+msgstr "Ďalša strana (%d)"
 
 msgctxt "#30107"
 msgid "Watch Later"
-msgstr "稍後觀看"
+msgstr "Sledovať neskôr"
 
 msgctxt "#30108"
 msgid "Remove"
-msgstr "移除"
+msgstr "Odstrániť"
 
 msgctxt "#30109"
 msgid "Latest Videos"
-msgstr "最新的影片"
+msgstr "Posledné videá"
 
 msgctxt "#30110"
 msgid "New Search"
-msgstr "重新搜尋"
+msgstr "Nové vyhľadávanie"
 
 msgctxt "#30111"
 msgid "Sign In"
-msgstr "登入"
+msgstr "Prihlásiť"
 
 msgctxt "#30112"
 msgid "Sign Out"
-msgstr "登出"
+msgstr "Odhlásiť"
 
 msgctxt "#30113"
 msgid "Rename"
-msgstr "重新命名"
+msgstr "Premenovať"
 
 msgctxt "#30114"
 msgid "Confirm delete"
-msgstr "確認刪除！"
+msgstr "Potvrdiť zmazanie"
 
 msgctxt "#30115"
 msgid "Confirm remove"
-msgstr "確認移除！"
+msgstr "Potvrdit presunutie"
 
 msgctxt "#30116"
 msgid "Delete \"%s\"?"
-msgstr "刪除 \"%s\"?"
+msgstr "Zmazať \"%s\"?"
 
 msgctxt "#30117"
 msgid "Remove \"%s\"?"
-msgstr "搬移 \"%s\"?"
+msgstr "Presunúť \"%s\"?"
 
 msgctxt "#30118"
 msgid "Delete"
-msgstr "刪除"
+msgstr "Zmazať"
 
 msgctxt "#30119"
 msgid "Please wait..."
-msgstr "請梢候..."
+msgstr "Prosím čakajte..."
 
 msgctxt "#30120"
 msgid "Clear"
-msgstr "清除"
+msgstr "Vyčistiť"
 
 #YouTube
 #empty strings from id 30121 to 30199
 
 msgctxt "#30200"
 msgid "API Key"
-msgstr "API 密鑰"
+msgstr ""
 
 msgctxt "#30201"
 msgid "API Key"
-msgstr "API 密鑰"
+msgstr ""
 
 msgctxt "#30202"
 msgid "API Id"
-msgstr "API 號碼"
+msgstr ""
 
 msgctxt "#30203"
 msgid "API Secret"
-msgstr "API 密碼"
+msgstr ""
 
 msgctxt "#30204"
 msgid "Enable Personal API Keys"
-msgstr "啟用個人 API 密鑰"
+msgstr ""
 
 msgctxt "#30205"
 msgid "Use preset API key set"
@@ -264,211 +264,211 @@ msgstr ""
 
 msgctxt "#30500"
 msgid "Channels"
-msgstr "頻道"
+msgstr "Kanály"
 
 msgctxt "#30501"
 msgid "Playlists"
-msgstr "播放清單"
+msgstr "Zoznamy"
 
 msgctxt "#30502"
 msgid "Go to %s"
-msgstr "前往 %s"
+msgstr "Ísť na %s"
 
 msgctxt "#30503"
 msgid "Show channel fanart"
-msgstr "顯示頻道的背景圖片"
+msgstr "Zobraziť fanart kanálu"
 
 msgctxt "#30504"
 msgid "Subscriptions"
-msgstr "訂閱"
+msgstr "Odbery"
 
 msgctxt "#30505"
 msgid "Unsubscribe"
-msgstr "取消訂閱"
+msgstr "Odhlásiť odber"
 
 msgctxt "#30506"
 msgid "Subscribe"
-msgstr "訂閱"
+msgstr "Přihlásiť k odberu"
 
 msgctxt "#30507"
 msgid "My Channel"
-msgstr "我的頻道"
+msgstr "Môj kanál"
 
 msgctxt "#30508"
 msgid "Liked Videos"
-msgstr "讚過的影片"
+msgstr "Videá, ktoré sa mi páčia"
 
 msgctxt "#30509"
 msgid "History"
-msgstr "瀏覽記錄"
+msgstr "História"
 
 msgctxt "#30510"
 msgid "My Subscriptions"
-msgstr "我訂閱的影片"
+msgstr "Moje odbery"
 
 msgctxt "#30511"
 msgid "Queue video"
-msgstr "加入佇列"
+msgstr "Pridať video do fronty"
 
 msgctxt "#30512"
 msgid "Browse Channels"
-msgstr "瀏覽頻道"
+msgstr "Prechádzať kanály"
 
 msgctxt "#30513"
 msgid "Popular right now"
-msgstr "人氣影片"
+msgstr "Populárne videá"
 
 msgctxt "#30514"
 msgid "Related Videos"
-msgstr "相關影片"
+msgstr "Súvisiace videá"
 
 msgctxt "#30515"
 msgid "Auto-Remove from 'Watch Later'"
-msgstr "自動刪除「稍後觀看」的影片"
+msgstr "Automaticky odstraniť zo 'Sledovať neskôr'"
 
 msgctxt "#30516"
 msgid "Folders"
-msgstr "資料夾"
+msgstr "Zložky"
 
 msgctxt "#30517"
 msgid "Subscribe to %s"
-msgstr "訂閱 %s"
+msgstr "Odoberať od %s"
 
 msgctxt "#30518"
 msgid "Go to '%s'"
-msgstr "請使用瀏覽器開啟下列連結： '%s'"
+msgstr "Ísť na '%s'"
 
 msgctxt "#30519"
 msgid "and enter the following code:"
-msgstr ""然後輸入認證碼："
+msgstr "a zadajte nasledujúcí kód:"
 
 msgctxt "#30520"
 msgid "Add to..."
-msgstr "新增至 ..."
+msgstr "Pridať do..."
 
 msgctxt "#30521"
 msgid "Select playlist"
-msgstr "選擇播放清單"
+msgstr "Vyberte zoznam"
 
 msgctxt "#30522"
 msgid "New playlist..."
-msgstr "新播放清單..."
+msgstr "Nový zoznam..."
 
 msgctxt "#30523"
 msgid "Language"
-msgstr "語言"
+msgstr "Jazyk"
 
 msgctxt "#30524"
 msgid "Select language"
-msgstr "選擇語言"
+msgstr "Vyberte jazyk"
 
 msgctxt "#30525"
 msgid "Select region"
-msgstr "選擇區域"
+msgstr "Vyberte región"
 
 msgctxt "#30526"
 msgid "Adjust"
-msgstr "調整"
+msgstr "Prispôsobiť"
 
 msgctxt "#30527"
 msgid "Language and region?"
-msgstr "語言及地區域嗎？"
+msgstr "Jazyk a región?"
 
 msgctxt "#30528"
 msgid "Rate..."
-msgstr "評分..."
+msgstr "Hodnotiť..."
 
 msgctxt "#30529"
 msgid "I like this"
-msgstr "我要讚這個"
+msgstr "Páči sa mi to"
 
 msgctxt "#30530"
 msgid "I dislike this"
-msgstr "不喜歡這個"
+msgstr "Nepáčí sa mi to"
 
 msgctxt "#30531"
 msgid "Play all"
-msgstr "全部播放"
+msgstr "Prehrať všetko"
 
 msgctxt "#30532"
 msgid "Default"
-msgstr "預設"
+msgstr "Štandardný"
 
 msgctxt "#30533"
 msgid "Reverse"
-msgstr "倒後"
+msgstr "Naopak"
 
 msgctxt "#30534"
 msgid "Shuffle"
-msgstr "任意"
+msgstr "Náhodne"
 
 msgctxt "#30535"
 msgid "Select the order of the playlist"
-msgstr "選擇播放清單排序方式"
+msgstr "Vyberte poradie zoznamu"
 
 msgctxt "#30536"
 msgid "Updating Playlist..."
-msgstr "正在更新播放清單 ..."
+msgstr "Obnovujem zoznam..."
 
 msgctxt "#30537"
 msgid "Play from here"
-msgstr "從此處開始播放"
+msgstr "Prehrať odtiaľto"
 
 msgctxt "#30538"
 msgid "Disliked Videos"
-msgstr "不喜歡的影片"
+msgstr "Videa, ktoré sa mi nepáčia"
 
 msgctxt "#30539"
 msgid "Live"
-msgstr "直播"
+msgstr "Naživo"
 
 msgctxt "#30540"
 msgid "Play with..."
-msgstr "選擇其他播放器 ..."
+msgstr "Prehrať pomocou..."
 
 msgctxt "#30541"
 msgid "Show channel name in description"
-msgstr "在描述列顯示廣播頻道名稱"
+msgstr "Zobraziť názov kanálu v popise"
 
 msgctxt "#30542"
 msgid "rtmpe streams are not supported"
-msgstr "不支援 RTMPE 格式"
+msgstr "rtmpe stream nieje podporovaný"
 
 msgctxt "#30543"
 msgid "Refresh"
-msgstr "重新整理"
+msgstr "Obnoviť"
 
 msgctxt "#30544"
 msgid "More Links from the description"
-msgstr "符合此描述範圍的其他連結"
+msgstr "Viac odkazov z popisu"
 
 msgctxt "#30545"
 msgid "No further links found."
-msgstr "沒有此範圍的其他連結。"
+msgstr "Ďalšie odkazy nenájdené"
 
 msgctxt "#30546"
 msgid "Please log in twice!"
-msgstr "請分兩次登入！"
+msgstr "Prosím prihláste se dvakrát!"
 
 msgctxt "#30547"
 msgid "You must enable two applications so that YouTube is functioning properly."
-msgstr "您要啟用最小兩個項目，Youtube 才能發揮完整的功能。"
+msgstr "Je potrebné povoliť dve aplikácie pre správnu funkcionalitu doplnku."
 
 msgctxt "#30548"
 msgid "More..."
-msgstr "更多選項 ..."
+msgstr "Viac..."
 
 msgctxt "#30549"
 msgid "No videos streams found"
-msgstr "沒有影片串流"
+msgstr "Žiadne streamy nenájdené"
 
 msgctxt "#30550"
 msgid "Region"
-msgstr "地區"
+msgstr "Región"
 
 msgctxt "#30551"
 msgid "Recommendations"
-msgstr "推薦的影片"
+msgstr "Odporúčania"
 
 msgctxt "#30552"
 msgid "Maintenance"
