@@ -8,13 +8,25 @@ DEFAULT_SWITCH = 1
 __context = __Context()
 __settings = __context.get_settings()
 
-_own_key = __settings.get_string('youtube.api.key', '').strip()
-_own_id = __settings.get_string('youtube.api.id', '').replace('.apps.googleusercontent.com', '').strip()
-_own_secret = __settings.get_string('youtube.api.secret', '').strip()
+_own_key = __settings.get_string('youtube.api.key', '')
+_own_id = __settings.get_string('youtube.api.id', '')
+_own_secret = __settings.get_string('youtube.api.secret', '')
 
-__settings.set_string('youtube.api.key', _own_key)
-__settings.set_string('youtube.api.id', _own_id)
-__settings.set_string('youtube.api.secret', _own_secret)
+_stripped_key = _own_key.strip()
+_stripped_id = _own_id.replace('.apps.googleusercontent.com', '').strip()
+_stripped_secret = _own_secret.strip()
+
+if _own_key != _stripped_key:
+    _own_key = _stripped_key
+    __settings.set_string('youtube.api.key', _own_key)
+
+if _own_id != _stripped_id:
+    _own_id = _stripped_id
+    __settings.set_string('youtube.api.id', _own_id)
+
+if _own_secret != _stripped_secret:
+    _own_secret = _stripped_secret
+    __settings.set_string('youtube.api.secret', _own_secret)
 
 
 def _has_own_keys():

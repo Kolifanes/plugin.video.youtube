@@ -49,9 +49,14 @@ class Subtitles(object):
 
     def _write_file(self, _file, contents):
         self.context.log_debug('Writing subtitle file: %s' % _file)
-        f = xbmcvfs.File(_file, 'w')
-        f.write(contents)
-        f.close()
+        try:
+            f = xbmcvfs.File(_file, 'w')
+            f.write(contents)
+            f.close()
+            return True
+        except:
+            self.context.log_debug('File write failed for: %s' % _file)
+            return False
 
     def _get_subtitles(self):
         languages = self._languages()
@@ -94,8 +99,9 @@ class Subtitles(object):
                                   verify=False, allow_redirects=True)
             if result.text:
                 self.context.log_debug('Subtitle found for: %s' % language)
-                self._write_file(fname, result.text)
-                return_list.append(fname)
+                result = self._write_file(fname, result.text)
+                if result:
+                    return_list.append(fname)
                 continue
             else:
                 self.context.log_debug('Failed to retrieve subtitles for: %s' % language)
@@ -116,8 +122,11 @@ class Subtitles(object):
                                   verify=False, allow_redirects=True)
             if result.text:
                 self.context.log_debug('Subtitle found for: %s' % language)
-                self._write_file(fname, result.text)
-                return [fname]
+                result = self._write_file(fname, result.text)
+                if result:
+                    return [fname]
+                else:
+                    return []
             else:
                 self.context.log_debug('Failed to retrieve subtitles for: %s' % language)
                 return []
@@ -135,8 +144,11 @@ class Subtitles(object):
                                       verify=False, allow_redirects=True)
                 if result.text:
                     self.context.log_debug('Subtitle found for: %s' % language)
-                    self._write_file(fname, result.text)
-                    return [fname]
+                    result = self._write_file(fname, result.text)
+                    if result:
+                        return [fname]
+                    else:
+                        return []
                 else:
                     self.context.log_debug('Failed to retrieve subtitles for: %s' % language)
                     return []
@@ -172,8 +184,11 @@ class Subtitles(object):
                                   verify=False, allow_redirects=True)
             if result.text:
                 self.context.log_debug('Subtitle found for: %s' % language)
-                self._write_file(fname, result.text)
-                return [fname]
+                result = self._write_file(fname, result.text)
+                if result:
+                    return [fname]
+                else:
+                    return []
             else:
                 self.context.log_debug('Failed to retrieve subtitles for: %s' % language)
                 return []

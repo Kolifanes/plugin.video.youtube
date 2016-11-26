@@ -12,10 +12,6 @@ SETUP_WIZARD = 'kodion.setup_wizard'  # (bool)
 
 SUPPORT_ALTERNATIVE_PLAYER = 'kodion.support.alternative_player'  # (bool)
 
-VIEW_OVERRIDE = 'kodion.view.override'  # (bool)
-VIEW_DEFAULT = 'kodion.view.default'  # (int)
-VIEW_X = 'kodion.view.%s'  # (int)
-
 LOGIN_USERNAME = 'kodion.login.username'
 LOGIN_PASSWORD = 'kodion.login.password'
 LOGIN_HASH = 'kodion.login.hash'

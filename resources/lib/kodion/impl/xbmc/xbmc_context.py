@@ -191,7 +191,6 @@ class XbmcContext(AbstractContext):
     def set_content_type(self, content_type):
         self.log_debug('Setting content-type: "%s" for "%s"' % (content_type, self.get_path()))
         xbmcplugin.setContent(self._plugin_handle, content_type)
-        self.get_ui().set_view_mode(content_type)
         pass
 
     def add_sort_method(self, *sort_methods):
@@ -239,7 +238,7 @@ class XbmcContext(AbstractContext):
                                   })
         response = json.loads(xbmc.executeJSONRPC(rpc_request))
         try:
-            return response['result']['addon']['enabled'] == 'true'
+            return response['result']['addon']['enabled'] is True
         except KeyError:
             message = response['error']['message']
             code = response['error']['code']
