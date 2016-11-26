@@ -597,13 +597,15 @@ class VideoInfo(object):
 
         if self._context.get_settings().use_dash():
             major_version = self._context.get_system_version().get_version()[0]
-            if major_version >= 17:
+            if major_version > 16:
                 use_dash = True
                 if not self._context.addon_enabled('inputstream.mpd'):
-                    use_dash = self._context.set_addon_enabled('inputstream.mpd')  # already 'enabled' this in youtube settings
+                    if self._context.get_ui().on_yes_no_input(self._context.get_name(), self._context.localize(30579)):
+                        use_dash = self._context.set_addon_enabled('inputstream.mpd')
+                    else:
+                        use_dash = False
             else:
                 use_dash = False
-                self._context.get_settings().set_bool('kodion.video.quality.mpd', False)
 
             if use_dash:
                 mpd_url = params.get('dashmpd', None)
@@ -621,6 +623,8 @@ class VideoInfo(object):
                     video_stream.update(self.FORMAT.get('9999'))
                     stream_list.append(video_stream)
                     return stream_list
+            else:
+                self._context.get_settings().set_bool('kodion.video.quality.mpd', False)
 
         added_subs = False  # avoid repeat calls from loop or cipher signature
         # extract streams from map

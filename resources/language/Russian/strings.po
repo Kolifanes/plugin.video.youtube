@@ -590,3 +590,7 @@ msgstr ""
 msgctxt "#30578"
 msgid "Force SSL Certificate verification"
 msgstr ""
+
+msgctxt "#30579"
+msgid "MPEG-DASH is enabled in the YouTube settings, however inputstream.mpd appears to be disabled. Would you like to enable inputstream.mpd now?"
+msgstr ""

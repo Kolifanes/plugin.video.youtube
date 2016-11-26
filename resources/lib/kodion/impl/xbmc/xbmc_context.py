@@ -238,7 +238,7 @@ class XbmcContext(AbstractContext):
                                   })
         response = json.loads(xbmc.executeJSONRPC(rpc_request))
         try:
-            return response['result']['addon']['enabled'] == 'true'
+            return response['result']['addon']['enabled'] is True
         except KeyError:
             message = response['error']['message']
             code = response['error']['code']
