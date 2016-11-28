@@ -45,7 +45,7 @@ msgid "Use MPEG-DASH"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Configure MPEG-DASH InputStream Client"
+msgid "Configure inputstream.adaptive"
 msgstr ""
 
 msgctxt "#30009"
@@ -600,5 +600,5 @@ msgid "Force SSL Certificate verification"
 msgstr ""
 
 msgctxt "#30579"
-msgid "MPEG-DASH is enabled in the YouTube settings, however inputstream.mpd appears to be disabled. Would you like to enable inputstream.mpd now?"
+msgid "MPEG-DASH is enabled in the YouTube settings, however inputstream.adaptive appears to be disabled. Would you like to enable inputstream.adaptive now?"
 msgstr ""

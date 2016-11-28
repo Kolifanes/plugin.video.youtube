@@ -485,12 +485,12 @@ class Provider(kodion.AbstractProvider):
         return result
 
     @kodion.RegisterProviderPath('^/config/(?P<switch>.*)/$')
-    def configure_mpd_inputstream(self, context, re_match):
+    def configure_addon(self, context, re_match):
         switch = re_match.group('switch')
         if switch == 'youtube':
             context._addon.openSettings()
         elif switch == 'mpd':
-            xbmcaddon.Addon(id='inputstream.mpd').openSettings()
+            xbmcaddon.Addon(id='inputstream.adaptive').openSettings()
         else:
             return False
 
