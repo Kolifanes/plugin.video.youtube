@@ -1,5 +1,5 @@
 5.3.5
-[add] MPEG-DASH support for Kodi 17 w/ inputstream.mpd Add-on
+[add] MPEG-DASH support for Kodi 17 w/ inputstream.adaptive Add-on
 [add] optional History and Watch Later custom playlist to Settings -> Folders, or (My)Playlists context menu to set/remove
 [add] Maintenance section to Settings
 [add] 'Subtitle language(s) to download' selection to Settings -> General

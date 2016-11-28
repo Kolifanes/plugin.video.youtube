@@ -25,10 +25,10 @@ def to_video_item(context, video_item):
     if video_item.get_context_menu() is not None:
         item.addContextMenuItems(video_item.get_context_menu(), replaceItems=video_item.replace_context_menu())
         pass
+
     if video_item.use_dash():
-        item.setProperty('inputstreamaddon', 'inputstream.mpd')
-    else:
-        item.setProperty('inputstreamaddon', '')
+        item.setProperty('inputstreamaddon', 'inputstream.adaptive')
+        item.setProperty('inputstream.adaptive.manifest_type', 'mpd')
 
     item.setProperty(u'IsPlayable', u'true')
 
