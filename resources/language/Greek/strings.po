@@ -84,7 +84,7 @@ msgstr "360p"
 
 msgctxt "#30018"
 msgid "1080p Live / 720p (HD)"
-msgstr ""
+msgstr "1080p Ζωντανά / 720p (ΥΕ)"
 
 #empty strings 30019
 
@@ -276,7 +276,7 @@ msgstr "Ενεργοποίηση προσωπικών κλειδιών API"
 
 msgctxt "#30205"
 msgid "Use preset API key set"
-msgstr ""
+msgstr "Χρησιμοποίησε το προκαθορισμένο σετ κλειδιών API"
 
 #YouTube
 #empty strings from id 30206 to 30499
@@ -595,8 +595,8 @@ msgstr "Ρυθμίσεις"
 
 msgctxt "#30578"
 msgid "Force SSL Certificate verification"
-msgstr ""
+msgstr "Επιβολή επιβεβαίωσης πιστοποιητικού SSL"
 
 msgctxt "#30579"
 msgid "MPEG-DASH is enabled in the YouTube settings, however inputstream.adaptive appears to be disabled. Would you like to enable inputstream.adaptive now?"
-msgstr ""
+msgstr "Το MPEG-DASH είναι ενεργοποιημένο στις ρυθμίσεις, αλλά το inputstream.adaptive φαίνεται να είναι απενεργοποιημένο. Επιθυμείτε την ενεργοποίησή του inputstream.adaptive τώρα;"
