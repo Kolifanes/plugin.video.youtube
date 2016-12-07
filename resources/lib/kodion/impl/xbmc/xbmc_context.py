@@ -106,7 +106,7 @@ class XbmcContext(AbstractContext):
         return 'en-US'
 
         """
-        if self.get_system_version().get_name() == 'Frodo':
+        if self.get_system_version().get_release_name() == 'Frodo':
             return 'en-US'
 
         try:
@@ -122,7 +122,7 @@ class XbmcContext(AbstractContext):
 
     def get_system_version(self):
         if not self._system_version:
-            self._system_version = XbmcSystemVersion(version='', name='')
+            self._system_version = XbmcSystemVersion(version='', releasename='', appname='')
             pass
 
         return self._system_version
