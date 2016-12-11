@@ -1,11 +1,10 @@
+Do not use this repo to update as I will not be applying any new updates.
 
-![](https://raw.githubusercontent.com/Kolifanes/plugin.video.youtube/master/icon.png)
-# **Links:**
+I do not have the abilities that i need to fully manage this repo.
 
-* [YouTube](http://www.youtube.com)
-* [Support thread](http://forum.kodi.tv/showthread.php?tid=267160)
+Please start using
 
-# **Images:**
-![](http://i.imgur.com/W5UEby8.png)
-![](http://i.imgur.com/rfqpIYC.png)
-![](http://i.imgur.com/hoIuZ1K.png)
+https://github.com/jdf76/plugin.video.youtube
+
+Thank you,
+Jeff (jdf76)
